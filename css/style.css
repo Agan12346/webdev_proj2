@@ -1,25 +1,48 @@
 body {
     background-color: #c1d3e8;
     color: rgb(35, 38, 46);
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 1;
     padding: 2rem;
 }
-
+header#main-header {
+    background-image: url('media/image/header_back.jpg') no-repeat top center;
+}
 h1 {
     color: #363e5d;
     font-size: 2.5rem;
     font-weight: bold; 
 }
-
 h2 {
     color: #1e2849;
     font-size: 2rem;
     font-weight: bold; 
 }
-
 h3 {
     color: #1c2b44;
     font-size: 1.5rem;
     font-weight: bold; 
+}
+nav#horz1 {
+    text-align: center;
+}
+nav#horz1 ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav#horz1 ul li {
+    float: left;
+}
+nav#horz1 ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: #203449;
+    text-decoration: none;
+}
+nav#horz1 ul li a:hover {
+    background-color: #667b91;
+}
+.clear{
+    clear: both;
 }
