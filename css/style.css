@@ -2,11 +2,17 @@ body {
     background-color: #c1d3e8;
     color: rgb(35, 38, 46);
     font-family: 'Courier New', Courier, monospace;
-    margin: 1;
+    margin: 0;
     padding: 2rem;
 }
 header#main-header {
-    background-image: url('media/image/header_back.jpg') no-repeat top center;
+    background-image: url('media/image/header_back.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 2rem 0; 
 }
 h1 {
     color: #363e5d;
