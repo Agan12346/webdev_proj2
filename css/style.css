@@ -64,14 +64,14 @@ nav#horz1 ul li a:hover {
 .clear{
     clear: both;
 }
-body, h1, h2, h3, p {
+body, 
+#regular_cup_of_tea h1, 
+#regular_cup_of_tea h2, 
+#regular_cup_of_tea h3, 
+#regular_cup_of_tea p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
-body {
-    background-color: #f9f9f9;
-    color: #333;
 }
 #container {
     width: 800px;
@@ -84,17 +84,18 @@ body {
     background-color: #4CAF50;
     padding: 15px;
 }
-section {
+#regular_cup_of_tea {
     margin: 20px 0;
 }
-h1, h3 {
+#regular_cup_of_tea h1, 
+#regular_cup_of_tea h3 {
     color: #4CAF50;
 }
 #matcha img {
     max-width: 100%;
     height: auto;
 }
-p {
+#regular_cup_of_tea p {
     line-height: 1.6;
     margin: 10px 0;
 }
