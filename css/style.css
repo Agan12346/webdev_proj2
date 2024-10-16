@@ -6,7 +6,7 @@ body {
     padding: 2rem;
 }
 header#main-header {
-    background-image: url('media/image/header_back.jpg');
+    background-image: url('../media/image/header_back.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -22,6 +22,15 @@ header#main-header {
 section {
     flex: 1 1 60%;
     margin-right: 2%;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 h1 {
     color: #363e5d;
